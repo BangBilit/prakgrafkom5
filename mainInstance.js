@@ -141,7 +141,7 @@ function main() {
     var THETA = 0, PHI = 0;
     var drag = false;
     var x_prev, y_prev;
-    var FRICTION = 0.05;
+    var FRICTION = 0.0;
     var dX = 0, dY = 0;
 
     var mouseDown = function (e) {
